@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Frontend Developer",
+  role: "Fullstack Developer",
   avatar: "/images/avatar.jpg",
   location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Asia/Kolkata'
   languages: ["English", "Hindi"], // optional: Leave the array empty if you don't want to display languages
@@ -102,16 +102,22 @@ const about = {
     experiences: [
       {
         company: "Lean Platform Technologies",
-        timeframe: "Mar 2024 - Nov 2024",
-        role: "Associate Software Engineer",
+        timeframe: "Aug 2024 - Jun 2025",
+        role: "Software Development Engineer - 1",
         achievements: [
           <>
-            Redesigned the Blog for the Product Platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Designed and developed secure, production grade full-stack applications using React.js(frontend) and
+            Node.js/Express(backend), ensuring scalability and resilience for 10K+ monthly active users.
           </>,
           <>
-            I drove key improvements for The Product Platform (3.5K MAU) and KhamBee, a creator-focused SaaS.
+            Improved frontend performance by using React hooks like useMemo and useCallback, and introduced
+            localStorage caching to avoid unnecessary API calls. This reduced average API load by 65% and speed up page
+            load times by nearly 30%.
           </>,
+          <>
+          Enhanced backend response time by 40% by implementing efficient API design with pagination, caching,
+          and optimized ORM queries.
+          </>
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
@@ -125,8 +131,8 @@ const about = {
       },
       {
         company: "Lean Platform Technologies",
-        timeframe: "Aug 2023 - Mar 2024",
-        role: "Frontend Developer Intern", 
+        timeframe: "Apr 2023 - Aug 2024",
+        role: "Associate Software Engineer", 
         achievements: [
           <>
             Developed a Greeting platform for personalized greeting and video messaging, ideal for creating memorable event moments. It leverages Supabase for scalable data management, Google Authentication for secure logins, a card editor for easy customization, and unique link generation for seamless sharing of user-created wishes.
@@ -202,13 +208,20 @@ const about = {
       { title: "TailwindCSS", description: "", images: [] },
       { title: "Firebase", description: "", images: [] },
       { title: "Supabase", description: "", images: [] },
+      { title: "SQL", description: "", images: [] },
       { title: "Nodejs", description: "", images: [] },
       { title: "Redux", description: "", images: [] },
+      { title: "Zustand", description: "", images: [] },
       { title: "React Query", description: "", images: [] },
       { title: "REST API", description: "", images: [] },
       { title: "AWS", description: "", images: [] },
       { title: "Linux", description: "", images: [] },
+      { title: "Docker", description: "", images: [] },
       { title: "Git/GitHub", description: "", images: [] },
+      { title: "PostgreSQL", description: "", images: [] },
+      { title: "MongoDB", description: "", images: [] },
+      { title: "Java", description: "", images: [] },
+      { title: "SpringBoot", description: "", images: [] },
     ],
   },
 };
