@@ -1,5 +1,5 @@
 // const baseURL = "demo.magic-portfolio.com";
-const baseURL = "http://localhost:3000/";
+const baseURL = "https://codewithmanas.com/";
 
 const routes = {
   "/": true,
