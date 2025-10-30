@@ -102,7 +102,7 @@ const about = {
     experiences: [
       {
         company: "Lean Platform Technologies",
-        timeframe: "Aug 2024 - Jun 2025",
+        timeframe: "Aug 2024 - Present",
         role: "Software Development Engineer - 1",
         achievements: [
           <>
