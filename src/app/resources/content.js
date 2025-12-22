@@ -102,7 +102,7 @@ const about = {
     experiences: [
       {
         company: "Lean Platform Technologies",
-        timeframe: "Aug 2024 - Present",
+        timeframe: "Mar 2023 - Present",
         role: "Software Development Engineer - 1",
         achievements: [
           <>
@@ -130,9 +130,9 @@ const about = {
         ],
       },
       {
-        company: "Lean Platform Technologies",
-        timeframe: "Apr 2023 - Aug 2024",
-        role: "Associate Software Engineer", 
+        company: "Nexvia Software Technologies",
+        timeframe: "Jun 2021 - Feb 2023",
+        role: "Software Development Engineer", 
         achievements: [
           <>
             Developed a Greeting platform for personalized greeting and video messaging, ideal for creating memorable event moments. It leverages Supabase for scalable data management, Google Authentication for secure logins, a card editor for easy customization, and unique link generation for seamless sharing of user-created wishes.
