@@ -131,7 +131,7 @@ const about = {
       },
       {
         company: "Nexvia Software Technologies",
-        timeframe: "Jun 2021 - Feb 2023",
+        timeframe: "Jun 2022 - Feb 2023",
         role: "Software Development Engineer", 
         achievements: [
           <>
